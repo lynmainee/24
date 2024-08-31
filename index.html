@@ -20,5 +20,13 @@
       </div>
     </div>
   </div>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var flipCardContainer = document.querySelector('.flip-card-container');
+        flipCardContainer.addEventListener('click', function() {
+            this.querySelector('.flip-card').classList.toggle('flipped');
+        });
+    });
+  </script>
 </body>
 </html>
